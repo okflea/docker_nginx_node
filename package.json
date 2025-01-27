@@ -3,7 +3,6 @@
   "description": "Dockerized Express code to launch new RESTful APIs.",
   "main": "app/app.js",
   "scripts": {
-    "test": "jest"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,14 +14,6 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-preset-es2017": "^6.24.1",
-    "eslint": "^8.5.0",
-    "jest": "^27.4.5",
-    "jest-environment-node": "^27.4.4",
-    "mongodb-memory-server": "^8.1.0",
-    "supertest": "^6.1.6"
-  },
-  "jest": {
-    "globalSetup": "./config/jest/globalSetup.js",
-    "globalTeardown": "./config/jest/globalTeardown.js"
+    "mongodb-memory-server": "^8.1.0"
   }
 }
